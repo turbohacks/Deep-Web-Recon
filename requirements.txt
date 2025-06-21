@@ -1,0 +1,16 @@
+requests
+socket
+subprocess
+datetime
+os
+threading
+ssl
+dns.resolver
+ipwhois
+urllib.parse
+time
+random
+json
+re
+tkinter
+concurrent.futures
