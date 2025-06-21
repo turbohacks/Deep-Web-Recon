@@ -1,0 +1,39 @@
+Installation Guide for Deep Web Recon (For Educational Use Only)
+
+Prerequisites:
+
+Python 3.8 or higher
+
+Internet connection
+
+OS: Linux, Windows, or macOS with Python
+
+Installation Steps:
+
+Open Terminal or CMD
+
+Update system and install Python if not already installed
+For Debian or Kali:
+sudo apt update
+sudo apt install python3 python3-pip python3-venv -y
+
+Navigate to the Deep Web Recon tool directory
+cd DeepWebRecon
+
+Create a virtual environment
+python3 -m venv venv
+
+Activate the virtual environment
+Linux/macOS:
+source venv/bin/activate
+Windows:
+venv\Scripts\activate
+
+Install all required Python modules
+pip install --break-system-packages -r requirements.txt
+
+Run the tool
+python DeepWebRecon.py
+
+After use, deactivate the environment
+deactivate
